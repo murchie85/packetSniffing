@@ -1,9 +1,7 @@
 # Packet Sniffing with Python  
 
 
-## NOTES 
-
-### Ethernet Frame   
+## Ethernet Frame   
 
 - If need to get Request to reddit
 - In order to send to reddit, we need `ip`, and `return address` of my computer
