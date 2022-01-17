@@ -9,7 +9,7 @@ import textwrap
 def main():
 	# make a socket to have connections with other computers
 	# socket.ntohs(3) makes sure the big BE LE conversion is right (including order)
-	conn = socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.ntohs(3))
+	conn = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.ntohs(3))
 
 	while True:
 		# anything we recieve goes into the two vars
