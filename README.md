@@ -50,12 +50,9 @@ def ethernet_frame(data):
 
 
 # return formatted mac address
-"""
-bytes_addr is iterable
-mac address is broken into chunks, we need to format it now 
-example:
-00:50:3E:E4:4C:00
-"""
+# bytes_addr is iterable
+# mac address is broken into chunks, we need to format it now 
+# example: 00:50:3E:E4:4C:00
 
 
 def get_mac_addr(bytes_addr):
